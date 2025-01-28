@@ -1,5 +1,22 @@
 {
-  "Users": [],
+  "Users": [
+    {
+      "username": "pranav",
+      "password": "pranav7781",
+      "role": "user",
+      "email": "pranavpallattu2004@gmail.com",
+      "phone": "7781778177",
+      "id": 1
+    },
+    {
+      "username": "pranavjhbkj",
+      "password": "pranav123",
+      "role": "user",
+      "email": "pranav@2000",
+      "phone": "8888888888",
+      "id": 2
+    }
+  ],
   "books": [
     {
       "title": "Rich Dad Poor Dad",
@@ -24,6 +41,12 @@
       "author": "Paulo Coelho",
       "imgurl": "https://i.thenile.io/r1000/9781627656573.jpg?r=5e978aebc799f",
       "id": 5
+    },
+    {
+      "title": "Wings of Fire",
+      "author": "APJ Abdul Kalam",
+      "imgurl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588286863i/634583.jpg",
+      "id": 6
     }
   ]
 }
