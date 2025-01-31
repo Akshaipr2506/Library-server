@@ -1,3 +1,148 @@
 {
-    "Users":[]
+  "Users": [
+    {
+      "username": "akku",
+      "password": "akku",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "username": "aksh",
+      "password": "12345",
+      "role": "user",
+      "email": "aksha@gmail.com",
+      "phone": "64763537975",
+      "id": 3,
+      "borrowedBooks": [
+        {
+          "bookId": 13,
+          "title": "The Chronicles Of Narnia",
+          "author": "C S Lewis",
+          "borrowedDate": "2024-12-19T14:33:17.323Z",
+          "returnDate": "2024-12-26T14:33:17.323Z"
+        }
+      ]
+    },
+    {
+      "username": "manu",
+      "password": "manu123",
+      "role": "user",
+      "email": "manu@gmail.com",
+      "phone": "12345678",
+      "id": 4,
+      "borrowedBooks": [
+        {
+          "bookId": 9,
+          "title": "War and Peace",
+          "author": "Leo Tolstoy",
+          "borrowedDate": "2024-12-20T08:31:37.112Z",
+          "returnDate": "2024-12-27T08:31:37.112Z"
+        }
+      ]
+    },
+    {
+      "username": "akshay",
+      "password": "akshay",
+      "role": "user",
+      "email": "akshay@gmail.com",
+      "phone": "234567",
+      "id": 5,
+      "borrowedBooks": [
+        {
+          "bookId": 6,
+          "title": "Harry Porter",
+          "author": "J K Rowling",
+          "borrowedDate": "2024-12-19T13:11:44.364Z",
+          "returnDate": "2024-12-26T13:11:44.364Z"
+        }
+      ]
+    },
+    {
+      "username": "sruthi",
+      "password": "sruthi",
+      "role": "user",
+      "email": "sruthi123@gmail.com",
+      "phone": "23456789",
+      "id": 6
+    },
+    {
+      "username": "Akshai",
+      "password": "akshai123",
+      "role": "user",
+      "email": "akshai@gmail.com",
+      "phone": "8899076543",
+      "id": 7,
+      "borrowedBooks": [
+        {
+          "bookId": 3,
+          "title": "Wings of Fire",
+          "author": "A P J Abdul Kalam",
+          "borrowedDate": "2024-12-20T10:40:15.774Z",
+          "returnDate": "2024-12-27T10:40:15.774Z"
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "title": "Wings of Fire",
+      "author": "A P J Abdul Kalam",
+      "imgurl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1588286863i/634583.jpg",
+      "id": 3
+    },
+    {
+      "title": "Ratan Tata A Life",
+      "author": "Thomas Mathew",
+      "imgurl": "https://m.media-amazon.com/images/I/719oHU9kiFL.jpg",
+      "id": 5
+    },
+    {
+      "title": "Harry Porter",
+      "author": "J K Rowling",
+      "imgurl": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale,dpr_1.5/jackets/9781408855652.jpg",
+      "id": 6
+    },
+    {
+      "title": "Sherlock Holmes",
+      "author": "Sir Arthur Conan Doyle",
+      "imgurl": "https://i.pinimg.com/474x/ce/12/de/ce12de3de0e7c0f0e8100924fbdc8c3e.jpg",
+      "id": 7
+    },
+    {
+      "title": "House of the Dragon",
+      "author": "George R R Martin",
+      "imgurl": "https://getmybooks.sgp1.cdn.digitaloceanspaces.com/images/33689441_1.jpg",
+      "id": 8
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "imgurl": "https://m.media-amazon.com/images/I/91jdlAVyttL._UF1000,1000_QL80_.jpg",
+      "id": 9
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "imgurl": "https://i.pinimg.com/736x/7a/3b/76/7a3b76f18169db5e9180c0b745050223.jpg",
+      "id": 10
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "imgurl": "https://media.glamour.com/photos/56e1f3c462b398fa64cbd304/master/w_1600%2Cc_limit/entertainment-2016-02-18-main.jpg",
+      "id": 11
+    },
+    {
+      "title": "Game of Thrones",
+      "author": "George R R Martin",
+      "imgurl": "https://rukminim2.flixcart.com/image/750/900/kjabs7k0-0/book/t/u/k/a-song-of-ice-and-fire-book-1-original-imafyvszaby9jje2.jpeg?q=20&crop=false",
+      "id": 12
+    },
+    {
+      "title": "The Chronicles Of Narnia",
+      "author": "C S Lewis",
+      "imgurl": "https://m.media-amazon.com/images/I/81RuC2qCSmL._AC_UF1000,1000_QL80_.jpg",
+      "id": 13
+    }
+  ]
 }
